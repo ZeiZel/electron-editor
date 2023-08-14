@@ -5,22 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a27aaeaa-d0c1-4979-a80f-64d3ff75f6b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/Editror/Editor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/FilesList/FilesList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/Preview/Preview.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/hooks/useScrollY.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/layout/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/pages/Markdown/Markdown.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/files/files.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/layout/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/layout/Header/Header.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/layout/Layout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/layout/Layout.props.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.rules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.rules.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/Editror/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/Editror/Editor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/FilesList/FilesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/FilesList/FilesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/Preview/Preview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/Preview/Preview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/hooks/useScrollY.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/hooks/useScrollY.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/layout/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/pages/Markdown/Markdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/pages/Markdown/Markdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -52,13 +56,15 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\ZeiZel\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "D:\\Learning\\Courses\\Projects\\electron-app\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -96,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691991560313</updated>
-      <workItem from="1691991563126" duration="4799000" />
+      <workItem from="1691991563126" duration="8708000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,1 @@
+export const isNotBrowser: boolean = typeof window === 'undefined'
